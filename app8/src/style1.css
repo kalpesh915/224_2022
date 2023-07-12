@@ -1,0 +1,21 @@
+.container{
+    width: 450px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
+    height: auto;
+    float: left;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+
+.data{
+    padding: 5px;
+}
