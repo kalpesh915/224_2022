@@ -1,0 +1,7 @@
+API
+
+Create new project
+1	first create json data file
+	json-server --watch mydata.json
+
+2	open new command prompt and start project
