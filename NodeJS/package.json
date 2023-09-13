@@ -1,8 +1,7 @@
 {
   "name": "nandini-node",
-  "version": "1.0.0",
+  "version": "1.4.2",
   "description": "Sample Project Example",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +9,12 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.1",
+    "chalk": "^5.3.0",
     "colors": "^1.4.0",
+    "global": "^4.4.0",
     "jquery": "^3.7.0",
     "simple-node-logger": "^21.8.12"
-  }
+  },
+  "main": "index1.js",
+  "devDependencies": {}
 }
