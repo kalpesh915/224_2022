@@ -1,7 +1,6 @@
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
-
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 console.log(students);
-students.push("Nikhil");
-students.push("Vivek");
+students.push("Het");
+students.push("Sohil");
 
 console.log(students);

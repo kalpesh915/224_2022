@@ -1,5 +1,5 @@
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 
 for(let x of students){
-    console.log("Welcome "+x);
+    console.log("Welcome " + x);
 }

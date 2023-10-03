@@ -1,7 +1,5 @@
-let students = ["Nandini", "Riya", "Falak"]
+let students = ["Nandini", "Ramesh", "Falak"];
 
-students.map(printer);
-
-function printer(name){
+students.map((name)=>{
     console.log(name);
-}
+});

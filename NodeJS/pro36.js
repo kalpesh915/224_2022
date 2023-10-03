@@ -1,5 +1,4 @@
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
-
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 console.log(students);
 students.pop();
 students.pop();

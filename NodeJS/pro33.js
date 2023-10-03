@@ -1,4 +1,3 @@
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
-
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 console.log(students);
-console.log(students[0]);
+console.log(students[1]);

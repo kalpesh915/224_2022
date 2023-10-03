@@ -2,13 +2,9 @@ let student = {
     roll : 123,
     fname : "Demo",
     lname : "Demo Text",
-    city :  "Rajkot",
-    phone : "8934433489"
+    city : "Rajkot",
+    co: 9276821381
 };
-
-// console.log(student);
-
 for(let x in student){
-    //console.log(x)
-    console.log(x+" is "+student[x]);
+    console.log(x + " is " + student[x]);
 }

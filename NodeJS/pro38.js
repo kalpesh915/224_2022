@@ -1,7 +1,4 @@
-            ///     0           1          2       3        4
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
-
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 console.log(students);
-// splice used to delete element
-students.splice(1, 1);
+students.splice(2,2);
 console.log(students);

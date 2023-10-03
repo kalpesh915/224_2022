@@ -1,7 +1,3 @@
-/*
-    post increment
-*/
-
 let ip1 = 10;
 let ip2 = ip1++;
 

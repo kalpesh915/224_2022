@@ -1,6 +1,6 @@
 const http = require("http");
 
 http.createServer((request, response)=>{
-    response.write("Welcome to world of Server side scripting with node JS");
+    response.write("Welcome to the world of Server side scripting with node JS");
     response.end();
-}).listen(5500);
+}).listen(4000);

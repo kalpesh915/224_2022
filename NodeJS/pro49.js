@@ -1,5 +1,6 @@
 let students = "Rajkot";
-
 for(let x of students){
-    console.log(x+" ");
-}
+      
+            console.log(x +" ");
+        }
+    

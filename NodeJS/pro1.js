@@ -1,6 +1,7 @@
-const name = "Nandini";
-console.log("Welcome "+name+" to Node JS");
 
-for(let i=1; i<=10; i++){
-    console.log("Welcome "+i);
-}
+
+const x = 5;
+const y = 6;
+const z = x + y;
+
+console.log(z);

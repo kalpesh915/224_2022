@@ -1,10 +1,8 @@
-// code for read data in file
-
 const fs = require("fs");
-const path = require("path");
 
-const pathname = path.join(__dirname, 'files');
+const path = require("path")
 
-fs.readFile(pathname+"/data.txt", 'utf-8',(error, data)=>{
+const pathname = path.join(__dirname,'files');
+fs.readFile(pathname + "/data.txt", 'utf-8', (error, data)=>{
     console.log(data);
 });

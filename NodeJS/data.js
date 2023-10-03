@@ -1,4 +1,4 @@
-exports.data =  [
+exports.data = [
     {
         id : 1,
         fname : "Riya",
@@ -6,26 +6,21 @@ exports.data =  [
         city : "Rajkot",
         phone : "2378952375289",
         email : "riya@gmail.com"
-    },{
+    },
+    {
         id : 2,
         fname : "Nandini",
         lname : "Parekh",
         city : "Rajkot",
         phone : "2378952375289",
         email : "riya@gmail.com"
-    },{
+    },
+    {
         id : 3,
-        fname : "Falak",
-        lname : "Parekh",
+        fname : "Ramesh",
+        lname : "Mandlik",
         city : "Rajkot",
         phone : "2378952375289",
-        email : "riya@gmail.com"
-    },{
-        id : 4,
-        fname : "Sahil",
-        lname : "Parekh",
-        city : "Rajkot",
-        phone : "2378952375289",
-        email : "riya@gmail.com"
+        email : "rm@gmail.com"
     }
-];
+]

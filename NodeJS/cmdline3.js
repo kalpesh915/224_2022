@@ -1,14 +1,15 @@
-/* options for file manipulation */
-
 const fs = require("fs");
 const arguments = process.argv;
 
 if(arguments[2] == "write"){
     fs.writeFileSync(arguments[3], arguments[4]);
-}else if(arguments[2] == "update"){
+}
+else if(arguments[2] == "update"){
     fs.writeFileSync(arguments[3], arguments[4]);
-}else if(arguments[2] == "delete"){
+}
+else if(arguments[2] == "Delete"){
     fs.unlinkSync(arguments[3]);
-}else{
+}
+else{
     console.log("Nothing to do");
 }

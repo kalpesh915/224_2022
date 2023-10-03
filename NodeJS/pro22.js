@@ -1,10 +1,8 @@
-let ip1 = 101, ip2 = 115, ans;
+let ip1 = 101, ip2 = 115, ans:
 
-// find maximum out of two numbers
-
-if(ip1 > ip2){
+if(ip1>ip2){
     ans = ip1;
 }else{
     ans = ip2;
 }
-console.log("Maximum is "+ans);
+console.log("Maximum is " + ans);

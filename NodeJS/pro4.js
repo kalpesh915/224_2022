@@ -1,18 +1,5 @@
-/*
-    use to declare a varible
-
-    var     =   global
-    let     =   scope
-    const   =   scope / unchangable
-*/ 
-
-
-let x = 10;
-console.log("x is "+x);
-
-{
-    let x = 100;
-    console.log("in scope x is "+x);
+const name = "Nandini";
+console.log("Welcome "+ name + " to node js");
+for(let i=1; i<10; i++){
+console.log("Welcome " + i);
 }
-
-console.log("after scope x is "+x);

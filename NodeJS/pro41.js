@@ -1,7 +1,4 @@
-            ///     0           1          2       3        4
-const students = ["Nandini", "Ritish", "Riya", "Falak", "Dhruvi"];
-
+const students = ["Nandini", "Ramesh", "Riya", "Falak"];
 console.log(students);
-// splice used as replace elements
-students.splice(1, 2, "Rajkot", "Baroda");
+students.splice(1,2, "Rajkot", "Baroda");
 console.log(students);
